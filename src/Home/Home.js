@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Home.css";
-import resume from "./img/resume.pdf";
+import resume from "../img/resume.pdf";
 
 function Home() {
   // fixed Header

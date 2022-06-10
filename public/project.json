@@ -1,0 +1,15 @@
+[
+    {
+       "id":"1",
+        "name":"AI COMPUTER",
+        "description":" Users can place orders, cancel orders, add reviews and make payments for orders ● Dashboard based on user and admin ● An admin can add products, manage products, manage orders and make a user an admin ",
+        
+        "technology-used":"HTML,Tailwind CSS,JavaScript,Firebase,React,Node,Express,MongoDB,Stripe,JWT",
+        "img0":"../src/img/c1.png ",
+        "img1":"../src/img/c2.png ",
+        "img2":"../src/img/c3.png ",
+        "client":"https://github.com/ABU-ISA-BISWAS/AICOMPUTER",
+        "server":"https://github.com/ABU-ISA-BISWAS/AICOMPUTER-SERVER ",
+        "live":"https://computer-point-7ec78.web.app/"
+    }
+]

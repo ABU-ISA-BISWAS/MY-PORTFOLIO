@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
-import aboutImg from "./img/about.jpg";
-import resume from "./img/resume.pdf";
+import aboutImg from "../img/about.jpg";
+import resume from "../img/resume.pdf";
 function About() {
   //  Up To Top Btn
   window.addEventListener("scroll", function () {

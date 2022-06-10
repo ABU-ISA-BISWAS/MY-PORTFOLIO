@@ -1,18 +1,28 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Project.css";
-import Project1 from './img/aicomputer.png';
-import Project2 from './img/fruit.png';
-import Project3 from './img/dental.png';
+import Project1 from '../img/aicomputer.png';
+import Project2 from '../img/fruit.png';
+import Project3 from '../img/dental.png';
 import { Link } from 'react-router-dom';
 
 
 function Project() {
+    const [projects,setProjects]= useState({});
+
+    useEffect(()=>{
+        fetch('project.json')
+            .then(res => res.json())
+            .then(data => setProjects(data))
+    },[])
   return (
     <div className="project component__space" id="Portfolio">
       <div className="heading">
-        <h1 className="heading">My Latest Project</h1>
+        <h1 className="heading text-4xl font-bold project-text text-center">My Latest Project </h1>
+        
         
       </div>
+
+      
        <div className="container">
            <div className="row">
              
@@ -26,8 +36,9 @@ function Project() {
                      </div>
                      <div className="project__meta absolute">
                      <h5 className="project__text">AI-Computer</h5>
-                     <Link  to="/project-detail">View Details</Link>
-                     <a href="https://computer-point-7ec78.web.app/" className="project__btn">View Details</a>
+                     <Link className="project__btn"  to="/project-detail">View Details</Link>
+                     
+
                      </div>
                  </div>
              </div>
@@ -69,9 +80,7 @@ function Project() {
 
 
              
-             <div className="view__more__btn d__flex align__items__center justify__content__center pxy__30">
-             <button className="view__more pointer btn">View more</button>
-             </div>
+             
 
            </div>
        </div>

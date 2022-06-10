@@ -1,6 +1,9 @@
 .project{
     background-color: #191919;
 }
+.project-text{
+    color: #F9004D;
+}
 img.project__img {
     border-radius: 10px;
     width: 100%;

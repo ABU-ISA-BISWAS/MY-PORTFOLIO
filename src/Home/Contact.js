@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Contact.css';
-import contactImg from "./img/about.jpg";
+import contactImg from "../img/about.jpg";
 import {send} from 'emailjs-com';
 function Contact() {
     const [senderName,setSenderName]=useState('');
