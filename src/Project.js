@@ -3,6 +3,7 @@ import "./Project.css";
 import Project1 from './img/aicomputer.png';
 import Project2 from './img/fruit.png';
 import Project3 from './img/dental.png';
+import { Link } from 'react-router-dom';
 
 
 function Project() {
@@ -25,7 +26,7 @@ function Project() {
                      </div>
                      <div className="project__meta absolute">
                      <h5 className="project__text">AI-Computer</h5>
-                     
+                     <Link  to="/project-detail">View Details</Link>
                      <a href="https://computer-point-7ec78.web.app/" className="project__btn">View Details</a>
                      </div>
                  </div>
@@ -43,7 +44,7 @@ function Project() {
                      <div className="project__meta absolute">
                      <h5 className="project__text">Fruit-warehouse</h5>
                      
-                     <a href="https://fruits-warehouse-fffdc.web.app/" className="project__btn">View Details</a>
+                     <a href="https://fruits-warehouse-fffdc.web.app/" className="project__btn ">View Details</a>
                      </div>
                  </div>
              </div>

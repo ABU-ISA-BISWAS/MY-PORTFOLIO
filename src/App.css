@@ -112,7 +112,7 @@ strong{
 input{
   color: rgba(198,201,216,.75);
 }
-button.btn {
+button.button {
   font-size: 18px;
   font-weight: 500;
   border-radius: 5px;
@@ -122,8 +122,7 @@ button.btn {
   text-transform: uppercase;
   letter-spacing: 2px;
   transition: .4s all ease;
-  height: 50px;
-  width: 180px;
+
   margin: 0px 10px;
 }
 .p__color {

@@ -31,7 +31,7 @@ h3.home__text{
     line-height: 40px;
 }
 h4.home__text{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 800;
     line-height: 40px;
     font-family: Montserrat,sans-serif;
@@ -68,6 +68,11 @@ ul.sidebar.d__flex {
 li.sideNavbar{
     padding: 25px 30px;
 }
+li.hover:hover{
+    color: #F9004D;
+    
+}
+
 /* RESPONSIVE */
 @media only screen and (max-width: 768px){
  .header{

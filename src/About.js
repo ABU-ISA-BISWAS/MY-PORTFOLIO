@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
 import aboutImg from "./img/about.jpg";
+import resume from "./img/resume.pdf";
 function About() {
   //  Up To Top Btn
   window.addEventListener("scroll", function () {
@@ -24,23 +25,23 @@ function About() {
               </p>
               <h1>Here are a Few Highlights:</h1>
               <ul>
-                <li className="about__text p__color">⚪ Full Stack web development</li>
-                <li className="about__text p__color">⚪ Interactive Front End as per the design</li>
-                <li className="about__text p__color">⚪ React</li>
-                <li className="about__text p__color">⚪ Building REST API</li>
-                <li className="about__text p__color">⚪ Managing database</li>
+                <li className="about__text  sweet">⚪  Full Stack web development</li>
+                <li className="about__text  sweet">⚪ Interactive Front End as per the design</li>
+                <li className="about__text  sweet">⚪ React</li>
+                <li className="about__text  sweet">⚪ Building REST API</li>
+                <li className="about__text  sweet">⚪ Managing database</li>
               </ul>
               
              
 
 
               <div className="about__button d__flex align__items__center">
-                <a href="#">
-                  <button className="about btn pointer">Download Cv</button>
+                <a href="#Contact">
+                  <button className=" button pointer">Hire Me</button>
                 </a>
-                <a href="#">
-                  <button className="about btn pointer">Hire Me</button>
-                </a>
+                <a href={resume} download="ABU-ISA resume.pdf">
+                <button className=" button pointer">Get Resume</button>
+              </a>
               </div>
             </div>
           </div>

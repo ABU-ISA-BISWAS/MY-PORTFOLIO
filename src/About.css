@@ -3,7 +3,7 @@
 }
 img.about__img{
     border-radius: 10px;
-    width: 100%;
+    width: 80%;
 }
 h1.about__heading{
     margin-bottom: 10px;
@@ -20,7 +20,7 @@ button.about.btn.pointer {
     transition: .4s ease;
 }
 .about__button{
-    padding: 20px 0px;
+    padding: 12px 0px;
 }
 a.bottom__to__top{
     height: 40px;

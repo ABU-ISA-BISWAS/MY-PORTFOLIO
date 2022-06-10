@@ -1,6 +1,6 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import "./Home.css";
-import logo from "./img/logo.png";
+import resume from "./img/resume.pdf";
 
 function Home() {
   // fixed Header
@@ -8,38 +8,38 @@ function Home() {
     const header = document.querySelector(".header");
     header.classList.toggle("active", window.scrollY > 0);
   });
+
   // Toogle Menu
-   const [show, setShow] = useState(true);
+
+  const [show, setShow] = useState(false);
   return (
     <div className="home" id="Home">
       <div className="home__bg">
         <div className="header d__flex align__items__center pxy__30">
           <div className="logo">
-            <img src={logo} alt="" />
+          
           </div>
           <div className="navigation pxy__30">
             <ul className="navbar d__flex">
               <a href="#Home">
-                <li className="nav__items mx__15">Home</li>
+                <li className="nav__items mx__15 hover">Home</li>
               </a>
               <a href="#About">
-                <li className="nav__items mx__15">About</li>
+                <li className="nav__items mx__15 hover">About</li>
               </a>
-              <a href="#Services">
-                <li className="nav__items mx__15">Services</li>
-              </a>
+            
               <a href="#Portfolio">
-                <li className="nav__items mx__15">Portfolio</li>
+                <li className="nav__items mx__15 hover">Portfolio</li>
               </a>
-              <a href="#Blog">
-                <li className="nav__items mx__15">Blog</li>
-              </a>
+             
               <a href="#Contact">
-                <li className="nav__items mx__15">Contact</li>
+                <li className="nav__items mx__15 hover">Contact</li>
               </a>
             </ul>
           </div>
+
           {/* Toogle Menu */}
+
           <div className="toggle__menu">
             <svg onClick={() => setShow(!show)}
               xmlns="http://www.w3.org/2000/svg"
@@ -55,42 +55,41 @@ function Home() {
               />
             </svg>
           </div>
-          {show ?(
-          <div className="sideNavbar">
+          {show ? (
+            <div className="sideNavbar">
               <ul className="sidebar d__flex">
-              <li className="sideNavbar">
-              <a href="#home">Home</a>
-            </li>
-            <li className="sideNavbar">
-              <a href="#about">About</a>
-            </li>
-            <li className="sideNavbar">
-              <a href="#services">Services</a>
-            </li>
-            <li className="sideNavbar">
-              <a href="#portfolio">Portfolio</a>
-            </li>
-            <li className="sideNavbar">
-              <a href="#blog">Blog</a>
-            </li>
-            <li className="sideNavbar">
-              <a href="#contact">Contact</a>
-            </li>
+                <li className="sideNavbar hover">
+                  <a href="#Home">Home</a>
+                </li>
+                <li className="sideNavbar hover">
+                  <a href="#About">About</a>
+                </li>
+               
+                <li className="sideNavbar hover">
+                  <a href="#Portfolio">Portfolio</a>
+                </li>
+               
+                <li className="sideNavbar hover">
+                  <a href="#Contact">Contact</a>
+                </li>
               </ul>
-          </div>
-           ) : null}
+            </div>
+          ) : null}
         </div>
+
         {/* HOME CONTENT */}
+
         <div className="container">
           <div className="home__content">
             <div className="home__meta">
-              <h1 className="home__text pz__10">WELCOME TO MY WORLD</h1>
+              <h1 className="home__text pz__10">WELCOME</h1>
               <h2 className="home__text sweet pz__10">Hi, I’m Abu Isa</h2>
-              <h3 className="home__text  pz__10">Web Developer.</h3>
-              <a href="https://drive.google.com/file/d/15jL6cd6noGnRJV8YEbk68byocUjMkeop/view?usp=sharing">
-                  <button className="about btn pointer">Download Cv</button>
-                </a>
-              
+              <h3 className="home__text  pz__10 mb-4">Web Developer</h3>
+              <a href={resume} download="ABU-ISA resume.pdf" className="mt-4">
+                <button className=" button ">Get Resume</button>
+              </a>
+
+
             </div>
           </div>
         </div>
