@@ -1,6 +1,12 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./Home.css";
 import resume from "../img/resume.pdf";
+import { FaFacebook } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa';
+import {FaGithub } from 'react-icons/fa';
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 
 function Home() {
   // fixed Header
@@ -12,6 +18,9 @@ function Home() {
   // Toogle Menu
 
   const [show, setShow] = useState(false);
+  useEffect(()=>{
+    Aos.init({duration:2000});
+  },[]);
   return (
     <div className="home" id="Home">
       <div className="home__bg">
@@ -29,11 +38,21 @@ function Home() {
               </a>
             
               <a href="#Portfolio">
-                <li className="nav__items mx__15 hover">Portfolio</li>
+                <li className="nav__items mx__15 hover">Projects</li>
               </a>
              
               <a href="#Contact">
                 <li className="nav__items mx__15 hover">Contact</li>
+              </a>
+              <a href="https://www.facebook.com/bmabuisa.cse/">
+                <li className="nav__items mx__15 hover"><FaFacebook /></li>
+              </a>
+              <a href="https://www.linkedin.com/in/abu-isa-09377b168/">
+                <li className="nav__items mx__15 hover"><FaLinkedin /></li>
+              </a>
+              
+              <a href="https://github.com/ABU-ISA-BISWAS">
+                <li className="nav__items mx__15 hover"><FaGithub /></li>
               </a>
             </ul>
           </div>
@@ -66,11 +85,20 @@ function Home() {
                 </li>
                
                 <li className="sideNavbar hover">
-                  <a href="#Portfolio">Portfolio</a>
+                  <a href="#Portfolio">Projects</a>
                 </li>
                
                 <li className="sideNavbar hover">
                   <a href="#Contact">Contact</a>
+                </li>
+                <li className="sideNavbar hover">
+                  <a href="https://www.facebook.com/bmabuisa.cse/"><FaFacebook /></a>
+                </li>
+                <li className="sideNavbar hover">
+                  <a href="https://www.linkedin.com/in/abu-isa-09377b168/"><FaLinkedin /></a>
+                </li>
+                <li className="sideNavbar hover">
+                  <a href="https://github.com/ABU-ISA-BISWAS"><FaGithub /></a>
                 </li>
               </ul>
             </div>
@@ -82,9 +110,9 @@ function Home() {
         <div className="container">
           <div className="home__content">
             <div className="home__meta">
-              <h1 className="home__text pz__10">WELCOME</h1>
-              <h2 className="home__text sweet pz__10">Hi, I’m Abu Isa</h2>
-              <h3 className="home__text  pz__10 mb-4">Web Developer</h3>
+              <h1 data-aos="fade-down" className="home__text pz__10">WELCOME</h1>
+              <h2 data-aos="fade-up" className="home__text sweet pz__10">Hi, I’m Abu Isa</h2>
+              <h3 data-aos="fade-left" className="home__text  pz__10 mb-4">Web Developer</h3>
               <a href={resume} download="ABU-ISA resume.pdf" className="mt-4">
                 <button className=" button ">Get Resume</button>
               </a>

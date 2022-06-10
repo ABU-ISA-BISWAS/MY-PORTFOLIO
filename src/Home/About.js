@@ -1,18 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./About.css";
 import aboutImg from "../img/about.jpg";
 import resume from "../img/resume.pdf";
+import Aos from "aos";
+import "aos/dist/aos.css";
 function About() {
   //  Up To Top Btn
   window.addEventListener("scroll", function () {
     const upToTop = document.querySelector("a.bottom__to__top");
     upToTop.classList.toggle("active", window.scrollY > 0)
   });
+  useEffect(()=>{
+    Aos.init({duration:2000});
+  },[]);
   return (
     <div className="about component__space" id="About">
       <div className="container">
         <div className="row">
-          <div className="col__2">
+          <div data-aos="zoom-in" className="col__2">
             <img src={aboutImg} alt="" className="about__img" />
           </div>
           <div className="col__2">
@@ -24,7 +29,7 @@ function About() {
                 For a more formal introduction, you can download my resume.
               </p>
               <h1>Here are a Few Highlights:</h1>
-              <ul>
+              <ul data-aos="fade-right">
                 <li className="about__text  sweet">⚪  Full Stack web development</li>
                 <li className="about__text  sweet">⚪ Interactive Front End as per the design</li>
                 <li className="about__text  sweet">⚪ React</li>
@@ -37,10 +42,10 @@ function About() {
 
               <div className="about__button d__flex align__items__center">
                 <a href="#Contact">
-                  <button className=" button pointer">Hire Me</button>
+                  <button  className=" button pointer">Hire Me</button>
                 </a>
                 <a href={resume} download="ABU-ISA resume.pdf">
-                <button className=" button pointer">Get Resume</button>
+                <button  className=" button pointer">Get Resume</button>
               </a>
               </div>
             </div>

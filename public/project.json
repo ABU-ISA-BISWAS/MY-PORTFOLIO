@@ -5,11 +5,37 @@
         "description":" Users can place orders, cancel orders, add reviews and make payments for orders ● Dashboard based on user and admin ● An admin can add products, manage products, manage orders and make a user an admin ",
         
         "technology-used":"HTML,Tailwind CSS,JavaScript,Firebase,React,Node,Express,MongoDB,Stripe,JWT",
-        "img0":"../src/img/c1.png ",
-        "img1":"../src/img/c2.png ",
-        "img2":"../src/img/c3.png ",
+        "img0":"https://i.ibb.co/ZLNyKMx/c1.png ",
+        "img1":"https://i.ibb.co/qdhXVmV/c2.png ",
+        "img2":"https://i.ibb.co/CsptJg5/c3.png ",
         "client":"https://github.com/ABU-ISA-BISWAS/AICOMPUTER",
         "server":"https://github.com/ABU-ISA-BISWAS/AICOMPUTER-SERVER ",
         "live":"https://computer-point-7ec78.web.app/"
-    }
+    },
+    {
+        "id":"2",
+         "name":"FRUIT WAREHOUSE",
+         "description":" Users can place orders, cancel orders, add reviews and make payments for orders ● Dashboard based on user and admin ● An admin can add products, manage products, manage orders and make a user an admin ",
+         
+         "technology-used":"HTML,Tailwind CSS,JavaScript,Firebase,React,Node,Express,MongoDB,Stripe,JWT",
+         "img0":"https://i.ibb.co/BTyfRwj/f1.png ",
+         "img1":"https://i.ibb.co/vPfPVBk/f2.png ",
+         "img2":"https://i.ibb.co/wy5ynx5/f3.png ",
+         "client":"https://github.com/ABU-ISA-BISWAS/Fruit-warehouse-client",
+         "server":"https://github.com/ABU-ISA-BISWAS/Fruit-warehouse-server ",
+         "live":"https://fruits-warehouse-fffdc.web.app/"
+     },
+     {
+        "id":"3",
+         "name":"DENTAL DOCTOR",
+         "description":" Users can place orders, cancel orders, add reviews and make payments for orders ● Dashboard based on user and admin ● An admin can add products, manage products, manage orders and make a user an admin ",
+         
+         "technology-used":"HTML,Tailwind CSS,JavaScript,Firebase,React,Node,Express,MongoDB,Stripe,JWT",
+         "img0":"https://i.ibb.co/YPDKZgg/d1.png ",
+         "img1":"https://i.ibb.co/2S6hDCH/d2.png ",
+         "img2":"https://i.ibb.co/9s7vMwG/d3.png ",
+         
+         "client":"https://github.com/ABU-ISA-BISWAS/Dental-doctor ",
+         "live":"https://dental-services-a744c.web.app/"
+     }
 ]

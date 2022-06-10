@@ -1,7 +1,9 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './Contact.css';
 import contactImg from "../img/about.jpg";
 import {send} from 'emailjs-com';
+import Aos from "aos";
+import "aos/dist/aos.css";
 function Contact() {
     const [senderName,setSenderName]=useState('');
     const [senderEmail,setSenderEmail]=useState('');
@@ -35,10 +37,13 @@ function Contact() {
         setSenderEmail('');
         setSenderMessage('');
     }
+    useEffect(()=>{
+        Aos.init({duration:2000});
+      },[]);
     return (
         <div className="contact component__space" id="Contact">
             <div className="row">
-                <div className="col__2">
+                <div data-aos="zoom-in" className="col__2">
                     <div className="contact__box">
                         <div className="contact__meta">
                             <h1 className="hire__text">Hire Me</h1>
@@ -56,7 +61,7 @@ function Contact() {
                         </div>
                     </div>
                 </div>
-                <div className="col__2">
+                <div data-aos="zoom-in" className="col__2">
                     <img src={contactImg} alt="" className="contact__img" />
                 </div>
             </div>

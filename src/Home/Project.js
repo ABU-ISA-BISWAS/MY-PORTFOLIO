@@ -17,7 +17,7 @@ function Project() {
   return (
     <div className="project component__space" id="Portfolio">
       <div className="heading">
-        <h1 className="heading text-4xl font-bold project-text text-center">My Latest Project </h1>
+        <h1 className="heading text-4xl font-bold project-text text-center font-serif">My Projects </h1>
         
         
       </div>
@@ -36,7 +36,7 @@ function Project() {
                      </div>
                      <div className="project__meta absolute">
                      <h5 className="project__text">AI-Computer</h5>
-                     <Link className="project__btn"  to="/project-detail">View Details</Link>
+                     <a href="https://computer-point-7ec78.web.app/" className="project__btn ">Visit Site</a>
                      
 
                      </div>
@@ -55,7 +55,7 @@ function Project() {
                      <div className="project__meta absolute">
                      <h5 className="project__text">Fruit-warehouse</h5>
                      
-                     <a href="https://fruits-warehouse-fffdc.web.app/" className="project__btn ">View Details</a>
+                     <a href="https://fruits-warehouse-fffdc.web.app/" className="project__btn ">Visit Site</a>
                      </div>
                  </div>
              </div>
@@ -72,7 +72,7 @@ function Project() {
                      <div className="project__meta absolute">
                      <h5 className="project__text">Dental-Doctor</h5>
                     
-                     <a href="https://dental-services-a744c.web.app/" className="project__btn">View Details</a>
+                     <a href="https://dental-services-a744c.web.app/" className="project__btn">Visit Site</a>
                      </div>
                  </div>
              </div>
