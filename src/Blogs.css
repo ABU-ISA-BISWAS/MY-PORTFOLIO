@@ -1,0 +1,15 @@
+.bg{
+    background-color: #010101;
+}
+button.buttn {
+    padding: 8px 12px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 2px solid #08c1fa;
+    background-color: #08c1fa;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: .4s all ease;
+}

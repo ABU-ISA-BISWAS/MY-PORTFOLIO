@@ -17,6 +17,10 @@ body{
   background-color: rgb(245, 244, 242);
   color: #000;
 }
+#light .bg {
+  background-color: rgb(245, 244, 242);
+ 
+}
 #light .text {
   color: #000;
 }
