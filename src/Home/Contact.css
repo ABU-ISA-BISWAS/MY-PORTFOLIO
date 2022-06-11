@@ -1,7 +1,7 @@
 .contact{
     background-color: #191919;
 }
-h1.hire__text {
+h2.hire__text {
     font-size: 60px;
 }
 p.hire__text{
@@ -10,7 +10,7 @@ p.hire__text{
     color: rgba(29,29,36,.75);
     font-weight: 400;
 }
-input.contact{
+.input-contact{
     display: block;
     width: 100%;
     padding: 0 20px;
@@ -33,7 +33,7 @@ input.contact{
     width: 80%;
     overflow: hidden;
 }
-textarea#message{
+#message{
     height: 120px;
     background: none;
     padding: 0 20px;
@@ -47,3 +47,14 @@ textarea#message{
 button.btn.contact.pointer {
     margin: 20px 0px;
 }
+.size{
+    height: 40px;
+    width: 40px;
+}
+
+
+@media only screen and (max-width: 425px){
+    .contact-img{
+        display: none;
+    }
+    }

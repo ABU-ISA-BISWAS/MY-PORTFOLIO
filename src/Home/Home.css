@@ -1,22 +1,49 @@
 .home__bg{
-    background-image: url(https://i.ibb.co/TcY9jK0/Screenshot-8-removebg-preview.png);
-    background-color: #010101;
+   
+    
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.img{
+    height: 400px;
+    width: 400px;
+   margin-bottom: 15px;
+    border: 1px solid #08c1fa ;
+    border-radius: 50%;
+}
+.text{
+    color: white;
+}
+.menu{
+    color:#08c1fa ;
+}
+.nav-bg{
+    background-color:#010101 ;
+    padding-bottom: 100px;
+    padding-top: 10px;
+}
+.items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    
 }
 li.nav__items{
     font-size: 18px;
     padding-bottom: 15px;
 }
 .home__content{
-    padding: 125px 0px;
+    padding: 100px 0px;
 }
-h1.home__text{
-    font-size: 18px;
-    font-weight: 400;
+.welcome{
+    font-size: 20px;
+    font-weight: 600;
     letter-spacing: 3px;
-    color: rgba(198,201,216,.75)!important;
+    color: #08c1fa;
 }
 h2.home__text{
     font-size: 54px;
@@ -24,7 +51,7 @@ h2.home__text{
     font-weight: 800;
     font-family: Montserrat,sans-serif;
 }
-h3.home__text{
+.web-dev{
     font-size: 50px;
     font-weight: 800;
     font-family: Montserrat,sans-serif;
@@ -59,9 +86,9 @@ ul.sidebar.d__flex {
     height: 100%;
     position: fixed;
     right: 0%;
-    background: #010101;
+    background: #1c1b1b;
     justify-content: center;
-    width: 300px;
+    width: 250px;
     top: 0%;
     flex-direction: column;
 }

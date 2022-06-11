@@ -1,9 +1,11 @@
 import React, { useEffect } from "react";
 import "./About.css";
-import aboutImg from "../img/about.jpg";
+
+
 import resume from "../img/resume.pdf";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import isa from '../img/bg-isa.png';
 function About() {
   //  Up To Top Btn
   window.addEventListener("scroll", function () {
@@ -18,7 +20,7 @@ function About() {
       <div className="container">
         <div className="row">
           <div data-aos="zoom-in" className="col__2">
-            <img src={aboutImg} alt="" className="about__img" />
+          <img className="image" src={isa} alt="" />
           </div>
           <div className="col__2">
             <h1 className="about__heading">About Me</h1>
@@ -30,11 +32,12 @@ function About() {
               </p>
               <h1>Here are a Few Highlights:</h1>
               <ul data-aos="fade-right">
-                <li className="about__text  sweet">⚪  Full Stack web development</li>
+                <li className="about__text  sweet">⚪ Full Stack web development</li>
                 <li className="about__text  sweet">⚪ Interactive Front End as per the design</li>
                 <li className="about__text  sweet">⚪ React</li>
-                <li className="about__text  sweet">⚪ Building REST API</li>
-                <li className="about__text  sweet">⚪ Managing database</li>
+                <li className="about__text  sweet">⚪ Redux </li>
+                
+                
               </ul>
               
              
