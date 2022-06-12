@@ -16,6 +16,11 @@ body{
 #light .nav-bg {
   background-color: rgb(245, 244, 242);
   color: #000;
+  
+}
+#light .bg-slate {
+  background-color: white;
+ 
 }
 #light .bg {
   background-color: rgb(245, 244, 242);
@@ -39,7 +44,7 @@ body{
   color: rgb(10, 191, 246);
 }
 #light .about {
-  background-color: rgba(218, 227, 228, 0.887);
+  background-color: rgb(245, 244, 242);
   
 }
 #light .about__heading {
@@ -61,7 +66,7 @@ body{
   color: black; 
 }
 #light .contact{
-  background-color: rgba(218, 227, 228, 0.887);
+  background-color: rgb(245, 244, 242);
 }
 #light .white{
   color: black!important;
@@ -80,6 +85,12 @@ body{
    border: 2px solid rgba(35, 35, 35, 0.2);
    
  }
+ #light .animation{
+ 
+  color: #000;
+ 
+  
+}
  #light .fa{
   background-color: #000;
   color: white;

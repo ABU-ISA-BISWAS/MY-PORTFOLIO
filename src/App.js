@@ -67,7 +67,7 @@ function App() {
               <label tabindex="0" class=" menu lg:hidden">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
               </label>
-              <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-slate-900 rounded-box w-52">
+              <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-slate rounded-box w-52">
                 <li className="text nav__items mx__15 hover"><a href="#Home"><RiHomeGearFill /> Home</a></li>
                 <li className="text nav__items mx__15 hover"><a href="#About"><FcAbout />About</a></li>
                 <li className="text nav__items mx__15 hover"><a href="#Portfolio"><AiFillProject />Projects</a></li>

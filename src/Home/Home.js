@@ -6,19 +6,20 @@ import resume from "../img/resume.pdf";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import isa from '../img/bg-isa.png';
+import TypeAnimation from 'react-type-animation';
 
 
 
 
 function Home() {
 
- 
+
   return (
     <div className="home" id="Home">
-      <div className="home__bg">
+      <div className="">
         {/* *************** */}
 
-       
+
 
         {/* HOME CONTENT */}
 
@@ -28,10 +29,19 @@ function Home() {
               <div className="home__meta">
                 <h1 data-aos="fade-down" className="welcome pz__10">WELCOME</h1>
                 <h2 data-aos="fade-up" className="home__text sweet pz__10">Hi, I’m Abu Isa</h2>
-                <h3 data-aos="fade-left" className="web-dev  pz__10 mb-4">Web Developer</h3>
+                
+                <p className="animation">🌐 <TypeAnimation
+                    cursor={false}
+                    repeat={Infinity}
+                    sequence={['Full Stack Developer 💻', 1000, 'Mern Stack Developer 👨🏻‍💻',1000,'React/Redux ⚛️',1000]}
+                    wrapper="b"
+                  />
+                  
+                </p>
                 <a href={resume} download="ABU-ISA resume.pdf" className="mt-4">
                   <button className=" button ">Get Resume</button>
                 </a>
+               
 
 
               </div>

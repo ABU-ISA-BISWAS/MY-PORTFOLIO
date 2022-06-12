@@ -1,5 +1,5 @@
 .project{
-    background-color: #191919;
+    background-color: #000;
 }
 
 img.project__img {
@@ -104,3 +104,12 @@ h4.project__text {
     font-size: 18px;
 }
 }
+
+@media only screen and (max-width: 425px){
+    button.button {
+        padding: 4px 8px;
+        font-size: 10px;
+        font-weight: 600;
+       
+    }
+    }

@@ -5,6 +5,16 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.bg-slate{
+    background-color:#181717;
+}
+.animation{
+    font-size: 40px;
+    font-weight: 700;
+    color:white;
+    margin-bottom: 5px;
+    
+}
 
 .img{
     height: 400px;
@@ -128,5 +138,12 @@ h1.home__text {
 }
 h4.home__text {
     font-size: 45px;
+}
+.animation{
+    font-size: 16px;
+    font-weight: 600;
+    color:white;
+    margin-bottom: 5px;
+    
 }
 }
