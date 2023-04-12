@@ -35,7 +35,7 @@ function About() {
                 <li className="about__text  sweet">⚪ Full Stack web development</li>
                 <li className="about__text  sweet">⚪ Interactive Front End as per the design</li>
                 <li className="about__text  sweet">⚪ React</li>
-                <li className="about__text  sweet">⚪ Redux </li>
+                
                 
                 
               </ul>

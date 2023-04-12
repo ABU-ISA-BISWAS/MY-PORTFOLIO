@@ -33,7 +33,7 @@ function Home() {
                 <p className="animation">🌐 <TypeAnimation
                     cursor={false}
                     repeat={Infinity}
-                    sequence={['Full Stack Developer 💻', 1000, 'Mern Stack Developer 👨🏻‍💻',1000,'React/Redux ⚛️',1000]}
+                    sequence={['Web Developer ', 1000]}
                     wrapper="b"
                   />
                   

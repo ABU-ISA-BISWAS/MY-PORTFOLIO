@@ -2,7 +2,7 @@
 import "./Project.css";
 import Project1 from '../img/aicomputer.png';
 import Project2 from '../img/fruit.png';
-import Project3 from '../img/dental.png';
+import Project3 from '../img/hms.png';
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -74,9 +74,10 @@ function Project() {
                             </div>
 
                         </div>
-                        <a data-aos="fade-right" href="https://dental-services-a744c.web.app/" className="project__btn font-mono ">Visit Site</a>
+                        <a data-aos="fade-right" href="https://hospital-management-syst-65bcc.web.app/" className="project__btn font-mono ">Visit Site</a>
                         <div className="text-center ">
-                            <button data-aos="fade-up" class="btn btn-xs mr-2"><a href="https://github.com/ABU-ISA-BISWAS/Dental-doctor" >client-side</a></button>
+                            <button data-aos="fade-up" class="btn btn-xs mr-2"><a href="https://github.com/ABU-ISA-BISWAS/HMS-client" >client-side</a></button>
+                            <button data-aos="fade-up" class="btn btn-xs mr-2"><a href="https://github.com/ABU-ISA-BISWAS/HMS-server" >server-side</a></button>
                            
 
                         </div>
